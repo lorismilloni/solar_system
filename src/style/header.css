@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap') ;
+
+.header {
+  color: #f0f3bd;
+  display: block;
+  font-family: Supermercado One , monospace;
+  font-size: 110px;
+  margin-top: 60px;
+  text-align: center;
+}

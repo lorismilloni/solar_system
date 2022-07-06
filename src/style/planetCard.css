@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap') ;
+
+.planetCard {
+  background-color: rgba(224, 175, 160, 0.609);
+  border-radius: 200px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  margin: 25px;
+  width: 250px;
+}
+
+.planetCard p {
+  color: #f0f3bd;
+  display: flex;
+  font-family: Lato , sans-serif;
+  font-size: 55px;
+  font-weight: 444;
+  padding-top: 80px;
+  text-align: center;
+}
+
+.planetCard img {
+  height: 350px;
+  margin-left: 15px;
+  width: 350px;
+}
