@@ -8,6 +8,7 @@ Made in **25/01/2021**.
 #### You can see my website in [this link](https://lorismilloni.github.io/studies-frontend-solar-system/).
 
 #### As you can see, at that time I wasn't very skilled with CSS, so checkout my new projects at [github.io](https://lorismilloni.github.io/).
+<img src='images-readme/css-01.png' width='500'>
 
 #### Trybe has a private repository with files that can't be shared. So here is my commit history print:
 <img src='images-readme/commit-history.png'>
