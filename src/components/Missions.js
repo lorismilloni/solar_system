@@ -7,17 +7,19 @@ import '../style/missionCard.css';
 class Missions extends React.Component {
   render() {
     return (
-      <div className="missions-section" data-testid="missions">
-        <Title headline="Missões" />
-        {missions.map(({ name, year, country, destination }) => (
-          <MissionCard
+      <div className="section">
+        <Title class="title" headline="Missões" />
+        <div className="missions-section columns is-multiline" data-testid="missions">
+          {missions.map(({ name, year, country, destination }) => (
+            <MissionCard
             key={ name }
             name={ name }
             year={ year }
             country={ country }
             destination={ destination }
-          />
-        ))}
+            />
+            ))}
+        </div>
       </div>
     );
   }

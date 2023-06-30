@@ -7,11 +7,13 @@ import '../style/solarSystem.css';
 class SolarSystem extends React.Component {
   render() {
     return (
-      <div className="planets" data-testid="solar-system">
+      <div class="section">
         <Title headline="Planetas" />
-        {planets.map(({ name, image }) => (
-          <PlanetCard key={ name } planetName={ name } planetImage={ image } />
-        ))}
+        <div class="section columns" data-testid="solar-system">
+          {planets.map(({ name, image }) => (
+            <PlanetCard key={ name } planetName={ name } planetImage={ image } />
+            ))}
+        </div>
       </div>
     );
   }

@@ -6,7 +6,7 @@ import Missions from './components/Missions';
 class App extends React.Component {
   render() {
     return (
-      <main>
+      <main class="has-background-light">
         <header>
           <Header />
         </header>
